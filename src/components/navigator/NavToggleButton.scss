@@ -1,0 +1,18 @@
+.nav-toggle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #000;
+
+  .nav-toggle-icon-wrapper {
+    width: 16px;
+    height: 16px;
+
+    img {
+      max-width: 100%;
+      height: 100%;
+    }
+  }
+}

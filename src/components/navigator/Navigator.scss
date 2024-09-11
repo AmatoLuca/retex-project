@@ -1,0 +1,17 @@
+.nav {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  .nav__row {
+    &.nav__row-ghost {
+      height: 44px;
+      display: block;
+      border-bottom: 1px solid #000;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}
