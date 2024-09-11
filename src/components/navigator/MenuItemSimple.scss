@@ -1,0 +1,12 @@
+.nav-menu-item-simple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 16.6667%;
+  border-right: 1px solid #000;
+
+  &:last-child {
+    border-right: none;
+  }
+}

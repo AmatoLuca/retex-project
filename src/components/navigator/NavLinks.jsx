@@ -5,8 +5,8 @@ import './NavLinks.scss';
 const NavLinks = () => {
   return (
     <div className="nav-links-wrapper">
-      <div className="nav-links-box">
-        <div className="nav-link nav-link-divider">
+      <div className="nav-links-general">
+        <div className="nav-link">
           <a href="#">Contribuisci</a>
         </div>
         <div className="nav-link">
@@ -14,8 +14,8 @@ const NavLinks = () => {
         </div>
       </div>
 
-      <div className="nav-links-box nav-links-box-log-in">
-        <div className="nav-link">
+      <div className="nav-links-log">
+        <div className="nav-link-icon">
           <img src={iconUser} alt="icon-user" />
         </div>
         <div className="nav-link">Accedi</div>

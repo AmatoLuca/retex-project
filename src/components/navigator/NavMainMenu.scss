@@ -1,0 +1,10 @@
+.nav-main-menu-wrapper {
+  .nav-main-menu-row {
+    display: flex;
+    border-bottom: 1px solid #000;
+
+    &.nav-main-menu-row-multiple {
+      border-bottom: none;
+    }
+  }
+}
