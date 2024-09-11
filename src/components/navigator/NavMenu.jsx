@@ -1,6 +1,7 @@
 import React from 'react';
 import NavToggleButton from './NavToggleButton';
 import NavSearch from './NavSearch';
+import NavMainMenu from './NavMainMenu';
 import './NavMenu.scss';
 
 const NavMenu = ({ handleMenuClick, isMenuOpened }) => {
@@ -11,6 +12,8 @@ const NavMenu = ({ handleMenuClick, isMenuOpened }) => {
         isMenuOpened={isMenuOpened}
       />
       <NavSearch />
+
+      {isMenuOpened && <NavMainMenu />}
     </div>
   );
 };

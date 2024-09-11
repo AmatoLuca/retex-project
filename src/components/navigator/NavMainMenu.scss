@@ -1,4 +1,9 @@
 .nav-main-menu-wrapper {
+  position: absolute;
+  top: 52px;
+  width: 100vw;
+  background-color: #fff;
+
   .nav-main-menu-row {
     display: flex;
     border-bottom: 1px solid #000;

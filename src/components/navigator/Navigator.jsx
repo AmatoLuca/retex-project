@@ -2,6 +2,7 @@ import React, { useState, useCallback, useEffect } from 'react';
 import NavLinks from './NavLinks';
 import NavMenu from './NavMenu';
 import NavMainMenu from './NavMainMenu';
+import Navbar from './Navbar';
 import './Navigator.scss';
 
 const Navigator = () => {
@@ -16,13 +17,17 @@ const Navigator = () => {
       <div className="nav__row">
         <NavLinks />
       </div>
-      <div className="nav__row nav__row-actions">
+
+      <div className="nav__row">
         <NavMenu
           handleMenuClick={handleMenuClick}
           isMenuOpened={isMenuOpened}
         />
       </div>
-      {isMenuOpened && <NavMainMenu />}
+
+      <div className="nav__row">
+        <Navbar />
+      </div>
     </div>
   );
 };
