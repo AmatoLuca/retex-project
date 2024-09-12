@@ -26,7 +26,7 @@ const Grid = () => {
   return (
     <div className="grid-wrapper">
       {articleData.map((article) => (
-        <Card cardData={article} />
+        <Card cardData={article} key={article.id} />
       ))}
     </div>
   );

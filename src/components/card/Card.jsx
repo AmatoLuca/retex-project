@@ -8,10 +8,11 @@ import './Card.scss';
 const Card = ({ cardData }) => {
   const isColorized = cardData.background.isColorized;
   const isFrame = cardData.frame;
+  const isCardExpanded = cardData.format === 'large';
 
   return (
     <div
-      className="card-wrapper"
+      className={`card-wrapper ${isCardExpanded && 'card-wrapper-expanded'}`}
       style={
         isColorized
           ? { background: cardData.background.ground }

@@ -21,11 +21,12 @@ export const linkData = [
 
 export const articleData = [
   {
+    id: 0,
     background: {
       isColorized: true,
       ground: '#E63036',
     },
-    formnat: 'standard',
+    format: 'standard',
     frame: false,
     badge: {
       color: '#FFFFFF',
@@ -40,11 +41,12 @@ export const articleData = [
     },
   },
   {
+    id: 1,
     background: {
       isColorized: false,
       ground: carImage_1,
     },
-    formnat: 'standard',
+    format: 'standard',
     frame: false,
     badge: {
       color: '#E2F0F1',
@@ -60,11 +62,12 @@ export const articleData = [
     },
   },
   {
+    id: 2,
     background: {
       isColorized: false,
       ground: carImage_2,
     },
-    formnat: 'standard',
+    format: 'standard',
     frame: false,
     badge: {
       color: '#F0E2F1',
@@ -80,11 +83,12 @@ export const articleData = [
     },
   },
   {
+    id: 3,
     background: {
       isColorized: false,
       ground: carImage_3,
     },
-    formnat: 'standard',
+    format: 'standard',
     frame: frameImage,
     badge: {
       color: '#F0E2F1',
@@ -99,11 +103,12 @@ export const articleData = [
     },
   },
   {
+    id: 4,
     background: {
       isColorized: false,
       ground: carImage_4,
     },
-    formnat: 'large',
+    format: 'large',
     frame: false,
     badge: {
       color: '#E2F0F1',
