@@ -9,7 +9,7 @@ const Topics = ({ title }) => {
       <div className="topics-list">
         <ul>
           {linkData.map((link) => (
-            <a href="#">
+            <a href="#" key={link.id}>
               <li className="topic-item" key={link.id}>
                 {link.nome}
               </li>
