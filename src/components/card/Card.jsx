@@ -22,15 +22,20 @@ const Card = ({ cardData }) => {
             }
       }
     >
-      <Badge title={cardData.badge.text} color={cardData.badge.color} />
-      {isFrame && <Frame image={cardData.frame} />}
-      <Typography title={cardData.title} isStretched={isFrame} />
-      <AvatarDetails
-        imageAuthor={cardData.author.avatar}
-        name={cardData.author.name}
-        date={cardData.author.date}
-        icon={cardData.author.icon}
-      />
+      <div className="card-info-wrapper">
+        <Badge title={cardData.badge.text} color={cardData.badge.color} />
+        {isFrame && <Frame image={cardData.frame} />}
+        <Typography title={cardData.title} isStretched={isFrame} />
+      </div>
+
+      <div className="card-avatar-wrapper">
+        <AvatarDetails
+          imageAuthor={cardData.author.avatar}
+          name={cardData.author.name}
+          date={cardData.author.date}
+          icon={cardData.author.icon}
+        />
+      </div>
     </div>
   );
 };

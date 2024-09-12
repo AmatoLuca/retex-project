@@ -4,6 +4,9 @@
   padding-bottom: 56px;
   padding-left: 40px;
   padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   &.card-wrapper-expanded {
     grid-column: 2 / 4;
