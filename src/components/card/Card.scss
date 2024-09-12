@@ -4,4 +4,9 @@
   padding-bottom: 56px;
   padding-left: 40px;
   padding-right: 40px;
+
+  &.card-wrapper-expanded {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+  }
 }
