@@ -21,9 +21,12 @@ export const linkData = [
 
 export const articleData = [
   {
-    background: '#E63036',
+    background: {
+      isColorized: true,
+      ground: '#E63036',
+    },
     formnat: 'standard',
-    frame: '',
+    frame: false,
     badge: {
       color: '#FFFFFF',
       text: 'Progetto Arca',
@@ -37,9 +40,12 @@ export const articleData = [
     },
   },
   {
-    background: carImage_1,
+    background: {
+      isColorized: false,
+      ground: carImage_1,
+    },
     formnat: 'standard',
-    frame: '',
+    frame: false,
     badge: {
       color: '#E2F0F1',
       text: 'Adolescenti',
@@ -54,9 +60,12 @@ export const articleData = [
     },
   },
   {
-    background: carImage_2,
+    background: {
+      isColorized: false,
+      ground: carImage_2,
+    },
     formnat: 'standard',
-    frame: '',
+    frame: false,
     badge: {
       color: '#F0E2F1',
       text: 'Economia Civile',
@@ -71,7 +80,10 @@ export const articleData = [
     },
   },
   {
-    background: carImage_3,
+    background: {
+      isColorized: false,
+      ground: carImage_3,
+    },
     formnat: 'standard',
     frame: frameImage,
     badge: {
@@ -87,9 +99,12 @@ export const articleData = [
     },
   },
   {
-    background: carImage_4,
+    background: {
+      isColorized: false,
+      ground: carImage_4,
+    },
     formnat: 'large',
-    frame: '',
+    frame: false,
     badge: {
       color: '#E2F0F1',
       text: 'Società',
